@@ -62,7 +62,7 @@ Where:
 
 ### 🎨 Visual Intuition
 
-![PSO Velocity Update](docs/pso_velocity_update.png)
+[PSO Velocity Update](docs/pso_velocity_update.png)
 
 In this diagram, each arrow represents a different influence on a particle’s velocity update:
 
@@ -74,7 +74,7 @@ In this diagram, each arrow represents a different influence on a particle’s v
 - **Green arrow – Cognitive pull ($c_{1} r_{1} (p^{best} - x)$):**  
   The pull toward the particle’s own best-known position.  
   - Encourages **individual learning**.  
-  - Each particle “remembers” where it personally found the best solution so far and is drawn back to it.  
+  - Each particle “remembers” where it personally found the best solution so far.  
 
 - **Orange arrow – Social pull ($c_{2} r_{2} (g^{best} - x)$):**  
   The pull toward the best-known position in the entire swarm.  
@@ -83,7 +83,8 @@ In this diagram, each arrow represents a different influence on a particle’s v
 
 - **Red arrow – New velocity:**  
   The final velocity is the **vector sum** of inertia, cognitive pull, and social pull.  
-  This is the actual direction and speed the particle will move in the next step.
+  This determines the actual direction and speed the particle will move in the next step.  
+
 
 
 ## 📊 About This Project
