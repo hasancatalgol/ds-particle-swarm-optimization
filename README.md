@@ -102,6 +102,23 @@ Features:
 
 ## 📈 Benchmark Functions
 
+Benchmark functions are **standard testbeds** in optimization research.  
+They are not designed for one algorithm specifically — instead, they provide a **common ground** to compare different optimization techniques.
+
+Why they matter:
+- 🎯 **Known solutions** → Most benchmark functions have well-defined global minima (or multiple optima), making it easy to check if an algorithm works.  
+- 🌄 **Diverse landscapes** → They include smooth convex bowls, narrow valleys, highly multimodal surfaces, and deceptive traps.  
+- 🧪 **Stress tests** → Running PSO (or any algorithm) on them reveals strengths (fast convergence, robustness) and weaknesses (premature convergence, sensitivity to parameters).  
+- 🔬 **Fair comparison** → Researchers can compare PSO directly against Genetic Algorithms, Differential Evolution, or other methods on the same set of functions.  
+
+In this project, we use these functions as a **playground** to observe how PSO behaves in different scenarios:  
+- Easy cases (Sphere, Booth, Matyas)  
+- Hard multimodal cases (Ackley, Rastrigin, Eggholder)  
+- Deceptive cases (Schwefel, Bukin N.6)  
+- Multiple optima (Himmelblau, Six-Hump Camelback)  
+
+They give us a **clear picture of PSO’s capabilities** before applying it to real-world problems.
+
 ### Ackley Function (Convergence Plot) ([details](https://www.sfu.ca/~ssurjano/ackley.html))
 
 <img src="docs/Ackley.png" alt="Ackley Convergence" width="450"/>
