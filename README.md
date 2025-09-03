@@ -68,17 +68,17 @@ Where:
 
 In this diagram, each arrow represents a different influence on a particle’s velocity update:
 
-- **Blue arrow – Inertia ($w \cdot v$):**  
+- **Blue arrow – Inertia (*w · v*):**  
   The particle’s tendency to keep moving in the same direction as before.  
-  - High $w$ → particles fly further, maintaining momentum (**exploration**).  
-  - Low $w$ → particles slow down, focusing more on refinement (**exploitation**).  
+  - High *w* → particles fly further, maintaining momentum (**exploration**).  
+  - Low *w* → particles slow down, focusing more on refinement (**exploitation**).  
 
-- **Green arrow – Cognitive pull ($c_{1} r_{1} (p^{best} - x)$):**  
+- **Green arrow – Cognitive pull (*c₁ r₁ (pᵇᵉˢᵗ − x)*):**  
   The pull toward the particle’s **own best-known position**.  
   - Encourages **individual learning**.  
   - Each particle “remembers” where it personally found the best solution so far.  
 
-- **Orange arrow – Social pull ($c_{2} r_{2} (g^{best} - x)$):**  
+- **Orange arrow – Social pull (*c₂ r₂ (gᵇᵉˢᵗ − x)*):**  
   The pull toward the **best-known position in the entire swarm**.  
   - Encourages **social learning**.  
   - Particles follow the leader — whichever particle has found the best solution so far.  
@@ -87,7 +87,11 @@ In this diagram, each arrow represents a different influence on a particle’s v
   The final velocity is the **vector sum** of inertia, cognitive pull, and social pull.  
   This determines the actual direction and speed the particle will move in the next step.  
 
+---
 
+**Velocity update equation:**  
+
+*v ← wv + c₁ r₁ (pᵇᵉˢᵗ − x) + c₂ r₂ (gᵇᵉˢᵗ − x)*
 
 
 ## 📊 About This Project
