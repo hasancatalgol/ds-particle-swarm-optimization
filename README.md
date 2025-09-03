@@ -277,3 +277,13 @@ It has a single global minimum and is relatively easy for PSO.
 
 The **Zakharov function** combines linear and quadratic terms with a curved valley.  
 It is unimodal but requires careful convergence along the valley floor.
+
+
+###  References
+
+For a clear visual representation of the overall Particle Swarm Optimization process—including initialization, evaluation, update rules, and iteration flow—see this flowchart:
+
+> Figure source: “Particle swarm optimization: Flow chart of the particle swarm optimization.”  
+> (Journal of The Electrochemical Society, featured on ResearchGate)
+
+[View Flowchart](https://www.researchgate.net/figure/Particle-swarm-optimizaiton-a-The-particle-swarm-optimization-algorithm-b-Flow-chart_fig3_354765195)
