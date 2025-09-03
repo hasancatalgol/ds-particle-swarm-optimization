@@ -104,88 +104,88 @@ Features:
 
 ### Ackley Function (Convergence Plot) ([details](https://www.sfu.ca/~ssurjano/ackley.html))
 
-![Ackley Convergence](docs/Ackley.png)
+<img src="docs/Ackley.png" alt="Ackley Convergence" width="450"/>
 
 The **Ackley function** is a multimodal test function with many local minima.  
-It is designed to challenge global optimization algorithms by forcing them to avoid getting trapped.
+It challenges PSO to escape local traps and find the global minimum.
 
 ---
 
 ### Beale Function (2D Animation) ([details](https://www.sfu.ca/~ssurjano/beale.html))
 
-![Beale Animation](docs/Beale.gif)
+<img src="docs/Beale.gif" alt="Beale Animation" width="450"/>
 
-The **Beale function** is a classic 2D test function with steep valleys and multiple local minima.  
-PSO must carefully balance exploration and exploitation to reach the global minimum.
+The **Beale function** is a classic 2D benchmark with steep valleys and multiple local minima.  
+PSO must balance exploration and exploitation to converge.
 
 ---
 
 ### Booth Function (2D Animation) ([details](https://www.sfu.ca/~ssurjano/booth.html))
 
-![Booth Animation](docs/Booth.gif)
+<img src="docs/Booth.gif" alt="Booth Animation" width="450"/>
 
 The **Booth function** is smooth and convex in 2D.  
-It is relatively easy for PSO to solve and converges quickly to the global minimum.
+It is relatively easy for PSO, converging quickly to the global optimum.
 
 ---
 
 ### Cross-in-Tray Function (2D Animation) ([details](https://www.sfu.ca/~ssurjano/crossit.html))
 
-![Cross-in-Tray Animation](docs/Cross-in-tray.gif)
+<img src="docs/Cross-in-tray.gif" alt="Cross-in-Tray Animation" width="450"/>
 
 The **Cross-in-Tray function** has multiple global minima and sharp peaks.  
-It is highly multimodal, making it a difficult test for swarm algorithms.
+It is highly multimodal, testing PSO’s global search ability.
 
 ---
 
 ### Easom Function (2D Animation) ([details](https://www.sfu.ca/~ssurjano/easom.html))
 
-![Easom Animation](docs/Easom.gif)
+<img src="docs/Easom.gif" alt="Easom Animation" width="450"/>
 
 The **Easom function** has a single sharp global minimum surrounded by flat plateaus.  
-It is extremely deceptive because most of the search space has nearly constant values.
+It is extremely deceptive because most of the search space is flat.
 
 ---
 
 ### Eggholder Function (2D Animation) ([details](https://www.sfu.ca/~ssurjano/egg.html))
 
-![Eggholder Animation](docs/Eggholder.gif)
+<img src="docs/Eggholder.gif" alt="Eggholder Animation" width="450"/>
 
 The **Eggholder function** is rugged and highly multimodal.  
-Its many steep valleys and ridges make it notoriously difficult for PSO to converge.
+Its steep ridges and valleys make it notoriously hard for PSO.
 
 ---
 
 ### Griewank Function (Convergence Plot) ([details](https://www.sfu.ca/~ssurjano/griewank.html))
 
-![Griewank Convergence](docs/Griewank.png)
+<img src="docs/Griewank.png" alt="Griewank Convergence" width="450"/>
 
 The **Griewank function** has many regularly distributed local minima.  
-Despite this, its global structure allows PSO to steadily find the optimum.
+Its global structure, however, allows PSO to converge steadily.
 
 ---
 
 ### Himmelblau Function (2D Animation) ([details](https://www.sfu.ca/~ssurjano/himmel.html))
 
-![Himmelblau Animation](docs/Himmelblau.gif)
+<img src="docs/Himmelblau.gif" alt="Himmelblau Animation" width="450"/>
 
-The **Himmelblau function** is a 2D test problem with **four global minima**.  
-PSO often converges to different minima depending on initialization.
+The **Himmelblau function** has **four global minima**.  
+PSO can converge to different optima depending on initialization.
 
 ---
 
 ### Levy Function (Convergence Plot) ([details](https://www.sfu.ca/~ssurjano/levy.html))
 
-![Levy Convergence](docs/Levy.png)
+<img src="docs/Levy.png" alt="Levy Convergence" width="450"/>
 
-The **Levy function** is continuous, multimodal, and highly nonlinear.  
-It challenges PSO to explore widely before exploitation.
+The **Levy function** is continuous, multimodal, and nonlinear.  
+It forces PSO to explore widely before refining solutions.
 
 ---
 
 ### Matyas Function (2D Animation) ([details](https://www.sfu.ca/~ssurjano/matya.html))
 
-![Matyas Animation](docs/Matyas.gif)
+<img src="docs/Matyas.gif" alt="Matyas Animation" width="450"/>
 
 The **Matyas function** is convex and simple in 2D.  
 PSO converges easily, making it a baseline benchmark.
@@ -194,61 +194,61 @@ PSO converges easily, making it a baseline benchmark.
 
 ### Rastrigin Function (Convergence Plot) ([details](https://www.sfu.ca/~ssurjano/rastr.html))
 
-![Rastrigin Convergence](docs/Rastrigin.png)
+<img src="docs/Rastrigin.png" alt="Rastrigin Convergence" width="450"/>
 
-The **Rastrigin function** is multimodal with a large number of local minima.  
-It is widely used to test the exploration ability of PSO.
+The **Rastrigin function** is highly multimodal with many local minima.  
+It is widely used to test the exploration capability of algorithms.
 
 ---
 
 ### Rosenbrock Function (Convergence Plot) ([details](https://www.sfu.ca/~ssurjano/rosen.html))
 
-![Rosenbrock Convergence](docs/Rosenbrock.png)
+<img src="docs/Rosenbrock.png" alt="Rosenbrock Convergence" width="450"/>
 
-The **Rosenbrock function** has a narrow, curved valley leading to the global minimum.  
-It is a difficult test because convergence requires precision along this valley.
+The **Rosenbrock function** has a narrow curved valley leading to the minimum.  
+It is hard for PSO since convergence requires precise movement along the valley.
 
 ---
 
 ### Schwefel Function (Convergence Plot) ([details](https://www.sfu.ca/~ssurjano/schwef.html))
 
-![Schwefel Convergence](docs/Schwefel.png)
+<img src="docs/Schwefel.png" alt="Schwefel Convergence" width="450"/>
 
 The **Schwefel function** is deceptive and multimodal.  
-Its global minimum is far from the origin, which often misleads algorithms like PSO.
+Its global minimum is far from the origin, often misleading PSO.
 
 ---
 
 ### Six-Hump Camelback Function (2D Animation) ([details](https://www.sfu.ca/~ssurjano/camel6.html))
 
-![Six-Hump Camelback Animation](docs/Six-hump%20camelback.gif)
+<img src="docs/Six-hump%20camelback.gif" alt="Six-Hump Camelback Animation" width="450"/>
 
-The **Six-Hump Camelback function** has six minima, with two global minima.  
-It is one of the most common 2D test functions for PSO and GA.
+The **Six-Hump Camelback function** has six minima, including two global minima.  
+It is a standard 2D test for PSO and genetic algorithms.
 
 ---
 
 ### Sphere Function (Convergence Plot) ([details](https://www.sfu.ca/~ssurjano/spheref.html))
 
-![Sphere Convergence](docs/Sphere.png)
+<img src="docs/Sphere.png" alt="Sphere Convergence" width="450"/>
 
 The **Sphere function** is the simplest convex benchmark.  
-PSO converges very quickly, making it an easy test case.
+PSO converges very quickly, making it an easy baseline test.
 
 ---
 
 ### Three-Hump Camel Function (2D Animation) ([details](https://www.sfu.ca/~ssurjano/camel3.html))
 
-![Three-Hump Camel Animation](docs/Three-hump%20camel.gif)
+<img src="docs/Three-hump%20camel.gif" alt="Three-Hump Camel Animation" width="450"/>
 
-The **Three-Hump Camel function** is smooth and polynomial in shape.  
-It has a single global minimum and is relatively easy for PSO to solve.
+The **Three-Hump Camel function** is polynomial in shape.  
+It has a single global minimum and is relatively easy for PSO.
 
 ---
 
 ### Zakharov Function (Convergence Plot) ([details](https://www.sfu.ca/~ssurjano/zakharov.html))
 
-![Zakharov Convergence](docs/Zakharov.png)
+<img src="docs/Zakharov.png" alt="Zakharov Convergence" width="450"/>
 
-The **Zakharov function** combines linear and quadratic terms, with a curved valley structure.  
+The **Zakharov function** combines linear and quadratic terms with a curved valley.  
 It is unimodal but requires careful convergence along the valley floor.
