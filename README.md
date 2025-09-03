@@ -2,6 +2,8 @@
 
 ## 📌 What is Particle Swarm Optimization?
 
+![Flock](docs/flock.jpg)
+
 **Particle Swarm Optimization (PSO)** is a population-based optimization algorithm inspired by the collective behavior of birds flocking or fish schooling.
 
 - Each particle represents a **candidate solution** in the search space.
@@ -62,7 +64,7 @@ Where:
 
 ### 🎨 Visual Intuition
 
-[PSO Velocity Update](docs/pso_velocity_update.png)
+![PSO Velocity Update](docs/pso_velocity_update.png)
 
 In this diagram, each arrow represents a different influence on a particle’s velocity update:
 
@@ -72,18 +74,19 @@ In this diagram, each arrow represents a different influence on a particle’s v
   - Low $w$ → particles slow down, focusing more on refinement (**exploitation**).  
 
 - **Green arrow – Cognitive pull ($c_{1} r_{1} (p^{best} - x)$):**  
-  The pull toward the particle’s own best-known position.  
+  The pull toward the particle’s **own best-known position**.  
   - Encourages **individual learning**.  
   - Each particle “remembers” where it personally found the best solution so far.  
 
 - **Orange arrow – Social pull ($c_{2} r_{2} (g^{best} - x)$):**  
-  The pull toward the best-known position in the entire swarm.  
+  The pull toward the **best-known position in the entire swarm**.  
   - Encourages **social learning**.  
   - Particles follow the leader — whichever particle has found the best solution so far.  
 
 - **Red arrow – New velocity:**  
   The final velocity is the **vector sum** of inertia, cognitive pull, and social pull.  
   This determines the actual direction and speed the particle will move in the next step.  
+
 
 
 
