@@ -64,7 +64,7 @@ Where:
 
 ### 🎨 Visual Intuition
 
-![PSO Velocity Update](docs/pso_velocity_update.png)
+![PSO Velocity Update](docs/pso_velocity_update.jpg)
 
 In this diagram, each arrow represents a different influence on a particle’s velocity update:
 
